@@ -33,10 +33,6 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
-      android:
-        default_package: quill_html_editor
-      ios:
-        default_package: quill_html_editor
       web:
         default_package: quill_html_editor
   assets:
