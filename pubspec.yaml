@@ -1,5 +1,5 @@
 name: quill_html_editor_v2
-description: HTML rich text editor for Android, iOS, and Web, it is built with the powerful Quill Js library. Which is an open source WYSIWYG editor built for the modern web.
+description: HTML rich text editor for Android, iOS, and Web, it is built with the powerful Quill JS library. Which is an open source WYSIWYG editor built for the modern web.
 
 version: 2.2.10
 homepage: https://github.com/sudhi001/quill_html_editor
@@ -15,9 +15,7 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  ##### For image picker widget
   file_picker: ^8.0.3
-  ##### For webveiwx widget
   http: ^1.2.1
   path: ^1.9.0
   pointer_interceptor: ^0.10.1
@@ -28,24 +26,20 @@ dependencies:
   webview_flutter_wkwebview: ^3.10.2
 
 dev_dependencies:
-  flutter_lints: ^4.0.0 
+  flutter_lints: ^4.0.0
 
 flutter:
-  plugin:
-    platforms:
-      web:
-        default_package: quill_html_editor
   assets:
-      - packages/quill_html_editor_v2/assets/camera_roll_icon.png
-      - packages/quill_html_editor_v2/assets/h1_dark.png
-      - packages/quill_html_editor_v2/assets/h2_dark.png
-      - packages/quill_html_editor_v2/assets/edit_table.png
-      - packages/quill_html_editor_v2/assets/insert_table.png
-      - packages/quill_html_editor_v2/assets/delete_column.png
-      - packages/quill_html_editor_v2/assets/delete_row.png
-      - packages/quill_html_editor_v2/assets/delete_table.png
-      - packages/quill_html_editor_v2/assets/insert_column_left.png
-      - packages/quill_html_editor_v2/assets/insert_row_above.png
-      - packages/quill_html_editor_v2/assets/insert_row_below.png
-      - packages/quill_html_editor_v2/assets/insert_column_right.png
-      - packages/quill_html_editor_v2/assets/scripts/quill_2.0.0_4_min.js
+    - packages/quill_html_editor_v2/assets/camera_roll_icon.png
+    - packages/quill_html_editor_v2/assets/h1_dark.png
+    - packages/quill_html_editor_v2/assets/h2_dark.png
+    - packages/quill_html_editor_v2/assets/edit_table.png
+    - packages/quill_html_editor_v2/assets/insert_table.png
+    - packages/quill_html_editor_v2/assets/delete_column.png
+    - packages/quill_html_editor_v2/assets/delete_row.png
+    - packages/quill_html_editor_v2/assets/delete_table.png
+    - packages/quill_html_editor_v2/assets/insert_column_left.png
+    - packages/quill_html_editor_v2/assets/insert_row_above.png
+    - packages/quill_html_editor_v2/assets/insert_row_below.png
+    - packages/quill_html_editor_v2/assets/insert_column_right.png
+    - packages/quill_html_editor_v2/assets/scripts/quill_2.0.0_4_min.js
