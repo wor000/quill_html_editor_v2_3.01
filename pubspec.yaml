@@ -23,7 +23,7 @@ dependencies:
   pointer_interceptor: ^0.10.1
   uuid: ^4.3.3
   webview_flutter: ^4.4.4
-  webview_flutter_android: ^3.13.2
+  webview_flutter_android: ^4.7.0
   webview_flutter_platform_interface: ^2.9.0
   webview_flutter_wkwebview: ^3.10.2
 
