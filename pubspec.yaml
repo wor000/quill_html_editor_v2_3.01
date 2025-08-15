@@ -14,8 +14,8 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  # Dependências web necessárias
-  web: ^0.5.1
+  # Força a versão mais alta da dependência web
+  web: ^1.1.0
   js: ^0.7.1
   # Para image picker widget
   file_picker: ^8.0.3
@@ -31,6 +31,10 @@ dependencies:
 
 dev_dependencies:
   flutter_lints: ^4.0.0
+
+# Override de dependências para resolver conflitos
+dependency_overrides:
+  web: ^1.1.0
 
 flutter:
   plugin:
