@@ -14,12 +14,9 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  # Força a versão mais alta da dependência web
-  web: ^1.1.0
-  js: ^0.7.1
-  # Para image picker widget
+  ##### For image picker widget
   file_picker: ^8.0.3
-  # Para webview widget
+  ##### For webview widget
   http: ^1.2.1
   path: ^1.9.0
   pointer_interceptor: ^0.10.1
@@ -32,9 +29,10 @@ dependencies:
 dev_dependencies:
   flutter_lints: ^4.0.0
 
-# Override de dependências para resolver conflitos
+# IMPORTANTE: Esta seção força as dependências compatíveis
 dependency_overrides:
-  web: ^1.1.0
+  web: ^1.1.0  # Força a versão que o webviewx_plus precisa
+  js: ^0.7.1   # Adiciona js para compatibilidade web
 
 flutter:
   plugin:
