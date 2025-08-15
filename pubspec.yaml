@@ -1,28 +1,25 @@
-name: quill_html_editor_v2
-description: HTML rich text editor for Android, iOS, and Web, it is built with the powerful Quill JS library. Which is an open source WYSIWYG editor built for the modern web.
-
-version: 2.2.10
-homepage: https://github.com/sudhi001/quill_html_editor
-repository: https://github.com/sudhi001/quill_html_editor
-maintainer: Sudhi S
-
 environment:
-  sdk: '>=2.18.1 <4.0.0'
-  flutter: ">=2.5.0"
+  sdk: ">=3.0.0 <4.0.0"     # Dart 3
+  flutter: ">=3.7.0"        # Flutter 3+
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
+
   file_picker: ^8.0.3
   http: ^1.2.1
   path: ^1.9.0
   pointer_interceptor: ^0.10.1
   uuid: ^4.3.3
-  webview_flutter: ^4.4.4
+
+  # Família WebView (alinhar as majors)
+  webview_flutter: ^4.13.0
   webview_flutter_android: ^4.7.0
-  webview_flutter_platform_interface: ^2.9.0
+  webview_flutter_wkwebview: ^3.13.0
+  webview_flutter_platform_interface: ^2.13.0
+
   webview_flutter_wkwebview: ^3.10.2
 
 dev_dependencies:
