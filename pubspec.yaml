@@ -16,7 +16,7 @@ dependencies:
     sdk: flutter
 
   # Image picker
-  file_picker: ^8.0.3
+  file_picker: ">=8.0.3 <11.0.0"
 
   # Web
   http: ^1.2.1
