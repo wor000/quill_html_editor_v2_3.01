@@ -1,6 +1,6 @@
 name: quill_html_editor_v2
 description: HTML rich text editor for Web, it is built with the powerful Quill Js library. Which is an open source WYSIWYG editor built for the modern web.
-version: 2.2.10
+version: 2.2.10+fork.1
 homepage: https://github.com/sudhi001/quill_html_editor
 repository: https://github.com/sudhi001/quill_html_editor
 maintainer: Sudhi S
@@ -14,29 +14,25 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  
-  ##### For image picker widget
+
+  # Image picker
   file_picker: ^8.0.3
-  
-  ##### For web functionality
+
+  # Web
   http: ^1.2.1
   path: ^1.9.0
   pointer_interceptor: ^0.10.1
   uuid: ^4.3.3
-  
-  ##### WebView only for web platform
+
+  # WebView (se você realmente usa dentro do pacote; caso não, pode remover)
   webview_flutter: ^4.4.4
   webview_flutter_platform_interface: ^2.9.0
 
 dev_dependencies:
-  flutter_lints: ^4.0.0 
+  flutter_lints: ^4.0.0
 
 flutter:
-  plugin:
-    platforms:
-      web:
-        default_package: quill_html_editor
-        
+  # ⚠️ Sem bloco "plugin:" aqui!
   assets:
     - packages/quill_html_editor_v2/assets/camera_roll_icon.png
     - packages/quill_html_editor_v2/assets/h1_dark.png
